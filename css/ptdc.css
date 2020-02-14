@@ -137,6 +137,10 @@ nav.site-menu ul li a i
 {
     padding: 6px 0px 0px;
 }
+    .text-box-2 h2 {
+    color: #fff;
+    font-size: 22px;
+}
 }
 @media (max-width: 991.98px)
 {
