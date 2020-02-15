@@ -1,9 +1,4 @@
-* 
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 body
  {
   color: #888;
@@ -14,6 +9,16 @@ body
   line-height: normal;
   overflow-x: hidden;
 }
+.main-fluid {
+  width: 100%;
+}
+@media (max-width: 700px){
+  .main-fluid {
+    width: 100%;
+    padding-right: 1px;
+    padding-left: 1px;
+  }
+  }
 .top-header 
 {
   padding-top: 7px;
@@ -137,10 +142,6 @@ nav.site-menu ul li a i
 {
     padding: 6px 0px 0px;
 }
-    .text-box-2 h2 {
-    color: #fff;
-    font-size: 22px;
-}
 }
 @media (max-width: 991.98px)
 {
@@ -255,6 +256,13 @@ nav.site-menu .navbar
 {
  color: #fff;
 }
+@media (max-width: 700px){
+
+  .text-box-2 h2 {
+    color: #fff;
+    font-size: 22px;
+}
+  }
 .text-box-2 p 
 {
  color: #fff;
@@ -444,12 +452,14 @@ nav.site-menu .navbar
   font-size: 36px;
   font-weight: 400;
   margin: 0px;
+  padding-left: 8px;
 }
 .main-footer-sub-content p 
 {
   color: #fff;
   font-weight: 300;
   font-size: 12px;
+  padding-left: 8px;
 }
 .main-footer-sub-content span 
 {
@@ -458,6 +468,7 @@ nav.site-menu .navbar
   color: #fff;
   font-size: 14px;
   font-weight: 500;
+  padding-left: 8px;
 }
 
 .removeclass 
@@ -517,30 +528,17 @@ ul.list-style-remove
   background: rgba(0,0,0,0.2);
   padding: 15px 0px
 }
-.text-right-sub 
+@media (max-width: 1000px){
+  .main-footer-sub-content ul li
+  {
+    padding-left: 8px;
+  }
+  .main-footer-sub-content p 
+  {
+    padding-left: 8px;
+  }
+  .main-footer-sub-content h1 
 {
-  color: #fff;
-  font-weight: 300;
-  font-size: 12px;
+  padding-left: 8px;
 }
-.text-left-sub 
-{
-    color: #fff;
-    font-weight: 300;
-    font-size: 12px;
-    text-align: right;
-}
-.text-left-sub a
-{
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500
-
-}
-.text-left-sub a:hover
-{
-
-  color: rgb(33, 230, 7);
-}
+  }
